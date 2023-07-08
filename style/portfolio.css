@@ -159,3 +159,32 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+
+/* footer style */
+
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 130px 200px;
+  margin-top: 100px;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 15px;
+  color: #757575;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+.social-links a {
+  margin-right: 25px;
+  font-size: 25px;
+}
